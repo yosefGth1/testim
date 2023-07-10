@@ -6,7 +6,7 @@ public class Cms : MonoBehaviour
 
     void Start()
     {
-        // Calculate the combined width of the screens
+        // Calculate the combined width of the screens /////////
         float combinedWidth = Display.displays.Length * Screen.width;
 
         // Set the viewport of the main camera to cover the combined width
